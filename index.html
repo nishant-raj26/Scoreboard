@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    	<!-- Style Sheet Link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="Images/Favicon.png">
+</head>
+
+<body>
+    <!-- Container Starts from here -->
+    <main class="container">
+        <!-- Home Start -->
+        <div class="home">
+            <h3>HOME</h3>
+            <div class="scoreboard-home">
+                <h2 id="home-score">0</h2>
+            </div>
+
+            <!-- Buttons -->
+            <div class="buttons">
+                <button class="plusone-btn" id="home-score-btn-1" onclick = "addoneh()">+1</button>
+                <button class="plustwo-btn" id="home-score-btn-2" onclick = "addtwoh()">+2</button>
+                <button class="plusthree-btn" id="home-score-btn-3" onclick = "addthreeh()">+3</button>
+                <button class="reset-btn" id="reset-home-score-btn" onclick = "reseth()">Reset</button>
+            </div>
+        </div>
+        <!-- Home End -->
+
+        <!-- Guest Start -->
+        <div class = "guest">
+            <h3>GUEST</h3>
+            <div class = "scoreboard-guest">
+                <h2 id = "guest-score">0</h2>
+            </div>
+            <!-- Buttons -->
+            <div class = "buttons">
+                <button class = "plusone-btn" id = "guest-score-btn-1" onclick = "addoneg()">+1</button>
+                <button class = "plustwo-btn" id = "guest-score-btn-2" onclick = "addtwog()">+2</button>
+                <button class = "plusthree-btn" id = "guest-score-btn-3" onclick = "addthreeg()">+3</button>
+                <button class = "reset-btn" id = "reset-guest-score-btn" onclick = "resetg()">Reset</button>
+            </div>
+        </div>
+        <!-- Guest Ends -->
+    </main>
+    <!-- Container Ends Here -->
+    <script src="index.js"></script>
+</body>
+</html>
