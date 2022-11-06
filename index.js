@@ -12,40 +12,40 @@ let guestScoreEl = document.getElementById("guest-score");
 // let guestScoreBtnThree = document.getElementById("guest-score-btn-3");
 // let guestHomeScore = document.getElementById("reset-guest-score-btn");
 
-let count = 0
+let counthome = 0
 function addoneh() {
-    count+=1
-    homeScoreEl.textContent = count
+    counthome+=1
+    homeScoreEl.textContent = counthome
 }
 function addtwoh() {
-    count+=2
-    homeScoreEl.textContent = count
+    counthome+=2
+    homeScoreEl.textContent = counthome
 }
 function addthreeh() {
-    count+=3
-    homeScoreEl.textContent = count
+    counthome+=3
+    homeScoreEl.textContent = counthome
 }
 function reseth() {
-    count = 0
-    homeScoreEl.textContent = count
+    counthome = 0
+    homeScoreEl.textContent = counthome
 }
 
-
+let countguest = 0
 function addoneg() {
-    count+=1
-    guestScoreEl.textContent = count
+    countguest+=1
+    guestScoreEl.textContent = countguest
 }
 function addtwog() {
-    count+=2
-    guestScoreEl.textContent = count
+    countguest+=2
+    guestScoreEl.textContent = countguest
 }
 function addthreeg() {
-    count+=3
-    guestScoreEl.textContent = count
+    countguest+=3
+    guestScoreEl.textContent = countguest
 }
 function resetg() {
-    count = 0
-    guestScoreEl.textContent = count
+    countguest = 0
+    guestScoreEl.textContent = countguest
 }
 
 
